@@ -11,7 +11,7 @@ R >= 3.3.0,
 [Rgraphviz](https://cran.r-project.org/src/contrib/Archive/Rgraphviz/)
 [tictoc](https://cran.r-project.org/web/packages/tictoc/index.html),
 [igraph](https://cran.r-project.org/web/packages/igraph/index.html)
-[bnlearn]((https://cran.r-project.org/web/packages/bnlearn/index.html),
+[bnlearn](https://cran.r-project.org/web/packages/bnlearn/index.html),
 [rJava](https://cran.r-project.org/web/packages/rJava/index.html)
 [rcausal](https://github.com/bd2kccd/r-causal),
 [RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)
