@@ -37,7 +37,7 @@ install_github("bd2kccd/r-causal", INSTALL_opts=c("--no-multiarch"),force = TRUE
 
 1) Inputs
 - algo list = 'GFCI', 'FCI', 'FCI_tetrad'
-- case list = 'PROPERTY','asia' , 'Sports','Alarm'
+- case list = 'PROPERTY', 'asia', 'Sports', 'Alarm'
 
 2) Run the files HCLC-V.R and ILC-V.R for both algorithms
 3) Outputs
