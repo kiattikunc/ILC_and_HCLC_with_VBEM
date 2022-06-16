@@ -6,19 +6,18 @@ instruction
 
 ## R Library Requirement
 R >= 3.3.0, 
-
 [pcalg](https://cran.r-project.org/web/packages/pcalg/index.html),
-[Rgraphviz](https://cran.r-project.org/src/contrib/Archive/Rgraphviz/)
+[Rgraphviz](https://cran.r-project.org/src/contrib/Archive/Rgraphviz/),
 [tictoc](https://cran.r-project.org/web/packages/tictoc/index.html),
-[igraph](https://cran.r-project.org/web/packages/igraph/index.html)
+[igraph](https://cran.r-project.org/web/packages/igraph/index.html),
 [bnlearn](https://cran.r-project.org/web/packages/bnlearn/index.html),
-[rJava](https://cran.r-project.org/web/packages/rJava/index.html)
+[rJava](https://cran.r-project.org/web/packages/rJava/index.html),
 [rcausal](https://github.com/bd2kccd/r-causal),
-[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)
+[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html),
 [DOT](https://cran.r-project.org/web/packages/DOT/index.html)
 
 ## Installation
-- Install Java development Kit version 13.0.1 
+- Install Java development Kit version 13.0.1:
 ```R
 Sys.setenv(JAVA_HOME="C:\\Program Files\\Java\\jdk-13.0.1")
 ```
