@@ -14,7 +14,7 @@ R >= 3.3.0,
 ```R
 Sys.setenv(JAVA_HOME="C:\\Program Files\\Java\\jdk-13.0.1")
 ```
-- Install rjava from github:
+- Install rjava version 0.9:
 ```R
 require(devtools)
 install.packages("stringr")
@@ -24,7 +24,6 @@ install.packages("rJava",type='source',"https://cran.r-project.org/src/contrib/A
 
 ```R
 install_github("bd2kccd/r-causal", INSTALL_opts=c("--no-multiarch"),force = TRUE)
-remotes::install_github("bd2kccd/r-causal")
 ```
 
 # Instructions
