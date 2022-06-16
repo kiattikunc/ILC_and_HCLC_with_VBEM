@@ -1,6 +1,6 @@
 # Incremental Latent Confounder search with VBEM (ILC-V) and Hill-Climbing Latent Confounder search with VBEM (HCLC-V) algorithms
 
-The algorithms in the preprint "Discovery and density estimation of latent confounders in Bayesian networks with evidence lower bound".
+The algorithms are available in the preprint "Discovery and density estimation of latent confounders in Bayesian networks with evidence lower bound".
 instruction
 
 
