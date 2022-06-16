@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1655381560281.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "65|67|107|0|\n123|47|141|0|\n149|1|165|0|\n167|1|187|0|\n189|1|204|0|\n214|20|276|15|\n287|1|449|0|\n456|51|465|105|\n",
+    "hash" : "0",
+    "id" : "EE107A66",
+    "lastKnownWriteTime" : 1655384581,
+    "last_content_update" : 1655384581181,
+    "path" : "~/GitHub/ILC_HCLC_with_VBEM/ILC-V.R",
+    "project_path" : "ILC-V.R",
+    "properties" : {
+        "cursorPosition" : "54,16",
+        "scrollLine" : "39"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
