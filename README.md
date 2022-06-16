@@ -30,23 +30,23 @@ require(devtools)
 # Instructions
 
 1) Inputs
-algo list = 'GFCI', 'FCI', 'FCI_tetrad'
-case list = 'PROPERTY','asia' , 'Sports','Alarm'
+- algo list = 'GFCI', 'FCI', 'FCI_tetrad'
+- case list = 'PROPERTY','asia' , 'Sports','Alarm'
 
 2) Run the files HCLC-V.R and ILC-V.R for both algorithms
 3) Outputs
 
-*bestdag_*.csv is the best-found DAG
-*bestBIC_*.csv is the BIC score of the best-found DAG
-*bestLL_*.csv is the log-likelihood score of the best-found DAG
-*bestELBO_*.csv is the p-ELBO score of the best-found DAG
-*dim_*.csv is the free parameters of the best-found DAG
-*list_confounder_*.csv is the numbers of latent confounders being searched  in the step 4 of both algorithms
-*listELBO_*.csv is the p-ELBO score being searched in the step 4 of both algorithms
+- *bestdag_*.csv is the best-found DAG
+- *bestBIC_*.csv is the BIC score of the best-found DAG
+- *bestLL_*.csv is the log-likelihood score of the best-found DAG
+- *bestELBO_*.csv is the p-ELBO score of the best-found DAG
+- *dim_*.csv is the free parameters of the best-found DAG
+- *list_confounder_*.csv is the numbers of latent confounders being searched  in the step 4 of both algorithms
+- *listELBO_*.csv is the p-ELBO score being searched in the step 4 of both algorithms
 
 ## Citation
 
-[![DOI]](https://arxiv.org/abs/2206.05490)
+[https://arxiv.org/abs/2206.05490](https://arxiv.org/abs/2206.05490)
 
 
 
