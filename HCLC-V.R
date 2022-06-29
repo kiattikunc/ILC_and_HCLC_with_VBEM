@@ -222,7 +222,12 @@ variantvariant_pair <- which((fci.est ==1 & t(fci.est)==1) , arr.ind=TRUE)
 
 variantvariant_pair_temp <- cbind(variantvariant_pair,matrix(-Inf, nrow = nrow(variantvariant_pair), ncol = 1))
 variantvariant_pair_temp <- cbind(variantvariant_pair_temp,matrix(0, nrow = nrow(variantvariant_pair), ncol = 1))
-variantvariant_pair <- remove_duplicated_pair(variantvariant_pair)
+
+if (nrow(variantvariant_pair) >0) 
+{
+  variantvariant_pair <- remove_duplicated_pair(variantvariant_pair)
+}
+
 if (is.null(nrow(variantvariant_pair))) 
 {
   variantvariant_pair <- matrix(variantvariant_pair_temp,1,2)
@@ -252,6 +257,7 @@ if (current_bidirectedge > 0) {
 
 
 best_ELBO <- -Inf
+best_local_ELBO <- -Inf
 best_structure_initial <- fci.est
 best_confounders <-c()
 rest_confounder <- c()
