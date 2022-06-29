@@ -236,7 +236,7 @@ if (is.null(nrow(variantdirect_pair)))
 
 # latentconfounder for o-o 
 variantvariant_pair <- which((fci.est ==1 & t(fci.est)==1) , arr.ind=TRUE)
-if (nrow(variantdirect_pair) >0) 
+if (nrow(variantvariant_pair) >0) 
 {
   variantvariant_pair <- remove_duplicated_pair(variantvariant_pair)
 }
